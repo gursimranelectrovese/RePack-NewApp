@@ -6,9 +6,11 @@ import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../../navigation/RootNavigator';
 
-import OtaFeature from '../../components/OtaFeature';
 
 type ProfileScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'Main'>;
+
+const OtaFeature = React.lazy(() => import(/* webpackChunkName: "ota-feature" */ '../../components/OtaFeature'));
+
 
 export default function ProfileScreen() {
   const navigation = useNavigation<ProfileScreenNavigationProp>();

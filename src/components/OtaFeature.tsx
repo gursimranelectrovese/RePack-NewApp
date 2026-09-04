@@ -9,6 +9,14 @@ const OtaFeature = () => {
         This component was loaded asynchronously as a separate chunk!
         In production, you can replace this chunk on your server and the app will download the updated version over the air.
       </Text>
+      <Text style={styles.description}>
+        This component was loaded asynchronously as a separate chunk!
+        In production, you can replace this chunk on your server and the app will download the updated version over the air.
+      </Text>
+      <Text style={styles.description}>
+        This component was loaded asynchronously as a separate chunk!
+        In production, you can replace this chunk on your server and the app will download the updated version over the air.
+      </Text>
 
       <Image
         style={{ width: 100, height: 100 }}
